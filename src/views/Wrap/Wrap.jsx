@@ -266,7 +266,7 @@ function Wrap() {
     if (!hasCorrectAllowance() && assetTo === "gOHM")
       return (
         <div className="no-input-visible">
-          First time wrapping to <b>gOHM</b>?
+          First time wrapping to <b>gSQUAD</b>?
           <br />
           Please approve Olympus to use your <b>{assetFrom}</b> for this transaction.
         </div>

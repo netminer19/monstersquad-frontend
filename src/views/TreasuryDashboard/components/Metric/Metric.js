@@ -81,7 +81,7 @@ export const WSOHMPrice = () => {
   return (
     <Metric
       className="metric wsoprice"
-      label={t`wsOHM Price`}
+      label={t`wsSQUAD Price`}
       metric={wsOhmPrice && formatCurrency(wsOhmPrice, 2)}
       isLoading={wsOhmPrice ? false : true}
       {...sharedProps}

@@ -26,13 +26,13 @@ const addTokenToWallet = (tokenSymbol, tokenAddress, address) => async () => {
     let tokenPath;
     let tokenDecimals = TOKEN_DECIMALS;
     switch (tokenSymbol) {
-      case "OHM":
+      case "SQUAD":
         tokenPath = OhmImg;
         break;
       case "33T":
         tokenPath = token33tImg;
         break;
-      case "gOHM":
+      case "gSQUAD":
         tokenPath = WsOhmImg;
         tokenDecimals = 18;
         break;
@@ -95,7 +95,7 @@ function OhmMenu() {
     >
       <Button id="ohm-menu-button" size="large" variant="contained" color="secondary" title="OHM" aria-describedby={id}>
         <SvgIcon component={InfoIcon} color="primary" />
-        <Typography className="ohm-menu-button-text">OHM</Typography>
+        <Typography className="ohm-menu-button-text">SQUAD</Typography>
       </Button>
 
       <Popper id={id} open={open} anchorEl={anchorEl} placement="bottom-start" transition>
@@ -118,13 +118,13 @@ function OhmMenu() {
                   </Link>
 
                   <Link
-                    href={`https://app.uniswap.org/#/swap?inputCurrency=${fraxAddress}&outputCurrency=${OHM_ADDRESS}`}
+                    href={`https://quickswap.exchange/#/swap?inputCurrency=${fraxAddress}&outputCurrency=${OHM_ADDRESS}`}
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Button size="large" variant="contained" color="secondary" fullWidth>
                       <Typography align="left">
-                        <Trans>Buy on {new String("Uniswap")}</Trans>
+                        <Trans>Buy on {new String("Quickswap")}</Trans>
                         <SvgIcon component={ArrowUpIcon} htmlColor="#A3A3A3" />
                       </Typography>
                     </Button>
@@ -132,7 +132,7 @@ function OhmMenu() {
 
                   <Link component={NavLink} to="/wrap" style={{ textDecoration: "none" }}>
                     <Button size="large" variant="contained" color="secondary" fullWidth>
-                      <Typography align="left">Wrap sOHM</Typography>
+                      <Typography align="left">Wrap sSQUAD</Typography>
                     </Button>
                   </Link>
                 </Box>
@@ -215,8 +215,8 @@ function OhmMenu() {
                   </Box>
                 ) : null}
 
-                <Divider color="secondary" />
-                <Link
+                {/* <Divider color="secondary" /> */}
+                {/* <Link
                   href="https://docs.olympusdao.finance/using-the-website/unstaking_lp"
                   target="_blank"
                   rel="noreferrer"
@@ -237,7 +237,7 @@ function OhmMenu() {
                       <Trans>Bridge Tokens</Trans>
                     </Typography>
                   </Button>
-                </Link>
+                </Link> */}
               </Paper>
             </Fade>
           );

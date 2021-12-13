@@ -17,8 +17,8 @@ interface IPoolGraphURLS {
 }
 
 export const POOL_GRAPH_URLS: IPoolGraphURLS = {
-  4: "https://api.thegraph.com/subgraphs/name/pooltogether/rinkeby-v3_4_3",
-  1: "https://api.thegraph.com/subgraphs/name/pooltogether/pooltogether-v3_4_3",
+  4: "https://api.thegraph.com/subgraphs/name/pooltogether/pooltogether-polygon-v3_3",
+  1: "https://api.thegraph.com/subgraphs/name/pooltogether/pooltogether-polygon-v3_3",
 };
 
 interface IAddresses {
@@ -27,7 +27,7 @@ interface IAddresses {
 
 export const addresses: IAddresses = {
   4: {
-    DAI_ADDRESS: "0xB2180448f8945C8Cc8AE9809E67D6bd27d8B2f2C", // duplicate
+    DAI_ADDRESS: "0x2885257BF9918A98E0311e0A74c8D59A3EC59438", // duplicate
     OHM_ADDRESS: "0xC0b491daBf3709Ee5Eb79E603D73289Ca6060932",
     STAKING_ADDRESS: "0xC5d3318C0d74a72cD7C55bdf844e24516796BaB2",
     STAKING_HELPER_ADDRESS: "0xf73f23Bb0edCf4719b12ccEa8638355BF33604A1",
@@ -52,7 +52,7 @@ export const addresses: IAddresses = {
     STAKING_V2: "0x06984c3A9EB8e3A8df02A4C09770D5886185792D",
   },
   1: {
-    DAI_ADDRESS: "0x6b175474e89094c44da98b954eedeac495271d0f", // duplicate
+    DAI_ADDRESS: "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063", // duplicate
     OHM_ADDRESS: "0x383518188c0c6d7730d91b2c03a03c837814a899",
     STAKING_ADDRESS: "0xfd31c7d00ca47653c6ce64af53c1571f9c36566a", // The new staking contract
     STAKING_HELPER_ADDRESS: "0xc8c436271f9a6f10a5b80c8b8ed7d0e8f37a612d", // Helper contract used for Staking only
@@ -194,29 +194,29 @@ export const NEWEST_NETWORK_ID = 43114;
 
 export const NETWORKS: { [key: number]: INetwork } = {
   1: {
-    chainName: "Ethereum",
+    chainName: "Polygon",
     chainId: 1,
     nativeCurrency: {
-      name: "Ethereum",
-      symbol: "ETH",
+      name: "Polygon",
+      symbol: "MATIC",
       decimals: 18,
     },
     rpcUrls: [""],
-    blockExplorerUrls: ["https://etherscan.io/#/"],
+    blockExplorerUrls: ["https://polygonscan.com/#/"],
     image: ethereum,
     imageAltText: "Ethereum Logo",
     uri: () => NodeHelper.getMainnetURI(1),
   },
   4: {
-    chainName: "Rinkeby Testnet",
+    chainName: "Polygon Testnet",
     chainId: 4,
     nativeCurrency: {
-      name: "Ethereum",
-      symbol: "ETH",
+      name: "Polygon",
+      symbol: "MATIC",
       decimals: 18,
     },
     rpcUrls: [""],
-    blockExplorerUrls: ["https://rinkeby.etherscan.io/#/"],
+    blockExplorerUrls: ["https://https://mumbai.polygonscan.com/#/"],
     image: ethereum,
     imageAltText: "Ethereum Logo",
     uri: () => NodeHelper.getMainnetURI(4),
