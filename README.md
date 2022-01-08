@@ -129,4 +129,28 @@ Only the following people have merge access for the master branch.
 
 * [Join our Discord](https://discord.gg/gGZUMVDuhQ) and ask how you can get involved with the DAO!
 
+Etherscan Verified Contracts
 
+Successfully verified contract SquadERC20Token on Etherscan. https://ropsten.etherscan.io/address/0xB03e6f031A5514b86649C43295cec9b3F9aE23eF#code
+
+Successfully verified contract Staking on Etherscan. https://ropsten.etherscan.io/address/0x7e67112629f72F3e9c11e9D23C3a42B29e637516#code
+
+Successfully verified contract StakingWarmup on Etherscan. https://ropsten.etherscan.io/address/0xFf5794c115AC69D5E1223C2c340508D3b410197B#code
+
+Successfully verified contract StakingHelper on Etherscan. https://ropsten.etherscan.io/address/0x82F7211532cad1342c4beF612DAb6D986B1D1268#code
+
+Successfully verified contract StakingDistributor on Etherscan. https://ropsten.etherscan.io/address/0xd1aB71bf8f8FDD6d62D0690b8687af16c65Ab61E#code
+
+Successfully verified contract Treasury on Etherscan. https://ropsten.etherscan.io/address/0xAd08b5941Cd538f4CFEdd749E91bAC8Ff8855130#code
+
+Successfully verified contract sSquadERC20 on Etherscan. https://ropsten.etherscan.io/address/0xA9F199A3a20feDeF309E7De6b1b896DAD3e97312#code
+
+Successfully verified contract DAIBondDepository on Etherscan. https://ropsten.etherscan.io/address/0x458312Ac5243c9E7920420fdC5aD2D2d9EC15FA1#code
+
+Successfully verified contract FRAXBondDepository on Etherscan. https://ropsten.etherscan.io/address/0x05F268751Eec1Fb75E71ef1A65511CeA2b5B83Ee#code
+
+Successfully verified contract DAI on Etherscan. https://ropsten.etherscan.io/address/0x53D2fB4333acC88Ca2074Eb4a10c59E956655956#code
+
+Successfully verified contract FRAX on Etherscan. https://ropsten.etherscan.io/address/0xB7f4AFfcb7f4FfEF031A884994DFaB318E7D41cE#code
+
+Successfully verified contract StandardBondingCalculator on Etherscan. https://ropsten.etherscan.io/address/0x227addcE0FDB7dc91c6652e2258F2aC5f3D1cffd#code
